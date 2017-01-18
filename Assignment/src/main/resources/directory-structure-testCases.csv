@@ -1,0 +1,12 @@
+# Directory structure as a flat file.
+#
+# The columns are defined as follows:
+# id; parentId; name; type; size; classification; checksum;
+#
+2;;folder2;directory;;;;
+3;11;folder3;directory;;;;
+4;2;file4;file;40;Secret;42;
+5;3;file5;file;50;Public;42;
+9;10;file9;file;90;Top secret;42;
+10;11;folder10;directory;;;;
+11;2;folder11;directory;;;;
